@@ -49,7 +49,7 @@ This system uses a patched version of VLC’s `--vbi-page` demuxer to extract hi
 
 1. Clone VLC and apply the patch from `/vlc-patch/vbi-sub-es.diff`
 2. Compile VLC with custom demux:
-   ```bash
+```bash
    ./configure --enable-vbi
    make
 ````
