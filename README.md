@@ -39,7 +39,7 @@ This system uses a patched version of VLC’s `--vbi-page` demuxer to extract hi
 │
 \[Rust PKCE Auth Server + Key Distribution]
 
-````
+```
 
 ---
 
