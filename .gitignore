@@ -1,0 +1,99 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+*.pdb
+
+# C/C++
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+build/
+dist/
+cmake-build-*/
+
+# VLC
+vlc-cache-*
+vlc-qt-interface.log
+vlc-qt-interface.log.old
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Documentation builds
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+*.profraw
+
+# Package managers
+node_modules/
+vendor/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Media files (for testing)
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.sdi
+*.ts
+*.mts
+
+# Configuration files with sensitive data
+config/local.json
+config/production.json 
